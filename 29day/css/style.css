@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+/* 리셋 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+#wrap {
+    width: 100%;
+}
+
+
+#wrap main {
+    width: 100%;
+    display: flex;
+    height: 850px;
+    background-color: #999;
+}
+
+#wrap main header {
+
+    width: 200px;
+    height: 850px;
+    background-color: #000;
+}
+
+#wrap main .contents {
+    width: calc(100% - 200px);
+    height: 850px;
+    background-color: #62543f;
+}
+
+#wrap main .contents .quick {
+    width: 120px;
+    height: 300px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #1df33f;
+}
+
+#wrap main .contents .slide {
+    width: 100%;
+    height: 400px;
+    background-color: #5dffff;
+}
+
+#wrap main .contents .banner {
+    width: 100%;
+    height: 200px;
+    background-color: #123fff;
+}
+
+#wrap main .contents .ng {
+    width: 100%;
+    height: 250px;
+    background-color: rgb(10, 99, 150);
+
+}
+
+
+
+#wrap footer {
+    width: 100%;
+    height: 120px;
+    background-color: #5392d3;
+}
+
+#wrap footer{}
